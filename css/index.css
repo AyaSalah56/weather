@@ -1,0 +1,156 @@
+*
+{
+    font-family : Roboto ,Open Sans ,sans-serif ;
+}
+a
+{
+    text-decoration: none;
+}
+nav a
+{
+    color: white !important;
+    transition: 0.3s;
+}
+nav ul li a:hover
+{
+    padding: 3px 30px;
+    border: 2px solid #009ad8;
+    border-radius: 30px;
+    color: white;
+    color: #009ad8;
+}
+.navbar-nav .nav-item .active
+{
+    padding: 3px 30px;
+    border: 2px solid #009ad8;
+    border-radius: 30px;
+    color: white;
+    color: #009ad8;
+}
+.sec1
+{
+    background-image: url("../img/banner.png");
+    background-repeat: no-repeat;
+    background-color: #1E202B;
+}
+.findBtn
+{
+    position: absolute;
+    right: 7px;
+    top: 73px;
+    padding: 7px 40px;
+    
+    border: #009ad8 solid 1px ;
+    border-radius: 30%;
+    background-color: #009ad8;
+}
+.text-blue
+{
+    color: #009ad8;
+}
+
+.head1
+{
+    background-color: #2D303D;
+}
+.content
+{
+    background-color: #323544;
+}
+.content2
+{
+    background-color:#262936 ;
+}
+.card
+{
+    color:#BFC1C8 !important;
+    border-color:#323544 ;
+}
+.head2
+{
+   background-color:#222530 ; 
+}
+.num
+{
+    color: white !important;
+    font-size: 5.1rem;
+    margin-right: 30px;
+    font-weight:700;
+}
+/* #firstImg
+{
+    width: 60px;
+    height: 60px;
+} */
+.num2
+{
+    font-size:24px;
+    color: white !important;
+    line-height:36px;
+    font-weight:700 ;
+}
+.location
+{
+    font-size:20px;
+}
+
+.icon img
+{
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer
+{
+    background-color: #262936;
+}
+.social-media .icona
+{
+    width: 40px ;
+    height:40px ;
+    background: #1e202b;
+    text-align: center;
+    border-radius: 50%;
+    color: #009ad8;
+    padding: 10px;
+    margin-left: 3px !important;
+    margin-top: 20px;
+}
+.subBtn
+{
+    position: absolute;
+    right: 7px;
+    top: 5px;
+    padding: 10px 20px;
+    border-color: #009ad8 ;
+    background-color: #009ad8;
+}
+input
+{
+    background-color: #1E202B !important;
+    border-color:#1E202B !important ;
+    color: white !important;
+}
+input::placeholder {
+    color: grey !important;
+    font-size: 14px !important;
+  }
+/* .site-footer .subscribe-form input[type="text"] {
+    padding: 20px 100px 20px 20px;
+    background: #1e202b;
+} */
