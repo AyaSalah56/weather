@@ -25,19 +25,25 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
                     <li class="nav-item">
                         <a class="nav-link active me-5" aria-current="page" href="#">Home</a>
                     </li>
+
                     <li class="nav-item me-5">
                         <a class="nav-link" href="#">News</a>
                     </li>
+
                     <li class="nav-item me-5">
                         <a class="nav-link" href="#">Live Cameras</a>
                     </li>
+
                     <li class="nav-item me-5">
                         <a class="nav-link" href="#">Photos</a>
                     </li>
+                     
                     <li class="nav-item me-5">
                         <a class="nav-link" href="#">Contact</a>
                     </li>
@@ -53,32 +59,40 @@
         </div>
         <div class="container">
             <div class="row pb-4">
-                <div class="col-md-4">
-                    <div class=" card mb-3 ">
+                <div class="col-lg-4 ">
+                    <div class=" card mb-3 h-100">
                         <div class="card-header head1 d-flex justify-content-between">
                             <div id="day"></div>
                             <div id="month"></div>
                         </div>
                         <div class="content ps-3">
                             <p class="location pt-4 mb-0 fs-6"></p>
-                            <div class="degree d-flex">
+                            <div class="degree d-flex justify-content-between px-3">
                                 <div class="num">
                                    
                                 </div>
-                                <img  id="firstImg" class="img-fluid ms-3">
+                                <div class="div d-flex align-items-center" >
+                                    <img  id="firstImg" class="img-fluid ">
+                                </div>
                             </div>
                             <div class="text-blue mb-4" id="one"></div>
-                            <div class="d-flex icon pb-5">
-                                <div class="d-flex me-3">
-                                    <img src="./img/icon-umberella.png" alt="">
+                            <div class="d-flex icon pb-5 flex-wrap ">
+                                <div class="d-flex pe-3 ">
+                                    <div>
+                                        <img src="./img/icon-umberella.png" alt="">
+                                    </div>
                                     <p>20%</p>
                                 </div>
-                                <div class="d-flex me-3">
-                                    <img src="./img/icon-wind.png" alt="">
+                                <div class="d-flex pe-3">
+                                    <div>
+                                        <img src="./img/icon-wind.png" alt="">
+                                    </div>
                                     <p>18km/h</p>
                                 </div>
-                                <div class="d-flex me-3">
-                                    <img src="./img/icon-compass.png" alt="">
+                                <div class="d-flex pe-3">
+                                    <div>
+                                        <img src="./img/icon-compass.png" alt="">
+                                    </div>
                                     <p>East</p>
                                 </div>
                             </div>
@@ -86,8 +100,8 @@
                     </div>
                 </div>
                 
-                <div class="col-md-4">
-                    <div class=" card mb-3 ">
+                <div class="col-lg-4">
+                    <div class=" card mb-3 h-100">
                         <div class="card-header head2 ">
                             <div class="text-center" id="day1"></div>
                         </div>
@@ -95,18 +109,15 @@
                             <img id="secImg" >
                             <div class="degree pt-3 ">
                                 <div class="num2" id="two-cabital">
-                                   
                                 </div>
-                                
                                 <div id="two-small"> </div>
                             </div>
                             <div class="text-blue mb-4 pt-4" id="two-text"></div>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-md-4">
-                    <div class=" card mb-3 ">
+                <div class="col-lg-4">
+                    <div class=" card mb-3 h-100">
                         <div class="card-header head1 ">
                             <div class="text-center" id="tomorow"></div>
                         </div>
@@ -124,8 +135,6 @@
             </div>
         </div>
     </section>
-
-
 
     <footer class="py-5">
         <div class="container">
@@ -149,7 +158,6 @@
             </div>
         </div>
     </footer>
-
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/index.js"></script>
