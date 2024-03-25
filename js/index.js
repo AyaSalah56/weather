@@ -8,7 +8,7 @@ var api ;
 document.getElementById("day").innerHTML = allDays[day.getDay()] ;
 document.getElementById("day1").innerHTML = allDays[day.getDay()] ;
 document.getElementById("tomorow").innerHTML = allDays[day.getDay() +1] ;
-document.getElementById("month").innerHTML = day.getDay() +  allMonths[day.getMonth()] ;
+document.getElementById("month").innerHTML = day.getDate() + ' ' +  allMonths[day.getMonth()] ;
 
 async function getWeather(city="cairo")
 {
