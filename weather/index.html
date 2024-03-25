@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Weather</title>
+</head>
+
+<body  data-bs-spy="scroll" data-bs-target="#navbar-example">
+
+    <nav class="navbar navbar-expand-lg bg-black py-5" id="navbar-example">
+        <div class="container">
+            <div class="d-flex">
+                <img src="./img/logo.png" class="me-3">
+                <div>
+                    <a class="navbar-brand fw-bold" href="#">Weather</a> <br>
+                    <a href="" class="fs-6">tagline goes here</a>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active me-5" aria-current="page" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="#">Live Cameras</a>
+                    </li>
+
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="#">Photos</a>
+                    </li>
+                     
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class=" sec1 ">
+        <div class=" container  py-4 position-relative">
+            <input id="search" class="form-control rounded-5 py-2 ms-2 my-5 ps-3" type="text" placeholder="Find your location...">
+            <button class=" findBtn rounded-2 text-white rounded-5">find</button>
+        </div>
+        <div class="container">
+            <div class="row pb-4">
+                <div class="col-lg-4 ">
+                    <div class=" card mb-3 h-100">
+                        <div class="card-header head1 d-flex justify-content-between">
+                            <div id="day"></div>
+                            <div id="month"></div>
+                        </div>
+                        <div class="content ps-3">
+                            <p class="location pt-4 mb-0 fs-6"></p>
+                            <div class="degree d-flex justify-content-between px-3">
+                                <div class="num">
+                                   
+                                </div>
+                                <div class="div d-flex align-items-center" >
+                                    <img  id="firstImg" class="img-fluid ">
+                                </div>
+                            </div>
+                            <div class="text-blue mb-4" id="one"></div>
+                            <div class="d-flex icon pb-5 flex-wrap ">
+                                <div class="d-flex pe-3 ">
+                                    <div>
+                                        <img src="./img/icon-umberella.png" alt="">
+                                    </div>
+                                    <p>20%</p>
+                                </div>
+                                <div class="d-flex pe-3">
+                                    <div>
+                                        <img src="./img/icon-wind.png" alt="">
+                                    </div>
+                                    <p>18km/h</p>
+                                </div>
+                                <div class="d-flex pe-3">
+                                    <div>
+                                        <img src="./img/icon-compass.png" alt="">
+                                    </div>
+                                    <p>East</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class=" card mb-3 h-100">
+                        <div class="card-header head2 ">
+                            <div class="text-center" id="day1"></div>
+                        </div>
+                        <div class="content2 ps-3 text-center py-5">
+                            <img id="secImg" >
+                            <div class="degree pt-3 ">
+                                <div class="num2" id="two-cabital">
+                                </div>
+                                <div id="two-small"> </div>
+                            </div>
+                            <div class="text-blue mb-4 pt-4" id="two-text"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class=" card mb-3 h-100">
+                        <div class="card-header head1 ">
+                            <div class="text-center" id="tomorow"></div>
+                        </div>
+                        <div class="content ps-3 text-center py-5">
+                            <img id="thirdPhoto">
+                            <div class="degree pt-3 ">
+                                <div class="num2" id="three-capital">
+                                </div>
+                                <div id="three-small"></div>
+                            </div>
+                            <div class="text-blue mb-4 pt-4" id="three-text"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 position-relative">
+                    <input class="form-control rounded-5 py-3 ms-2 mb-5 " type="text"
+                        placeholder="Enter your email to subscribe...">
+                    <button class=" subBtn rounded-2 text-white rounded-5">subscribe</button>
+                    <p class="text-white">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+                </div>
+                <div class="col-md-4 social-media text-center">
+                    <a class="icona" href="https://www.facebook.com/" target="_blank"><i
+                            class="fa-brands fa-facebook-f "></i></a>
+                    <a class="icona" href="https://twitter.com/" target="_blank"><i
+                            class="fa-brands fa-twitter"></i></a>
+                    <a class="icona" href="https://www.google.com/" target="_blank"><i
+                            class="fa-brands fa-google-plus-g"></i></a>
+                    <a class="icona" href="https://www.pinterest.com/" target="_blank"><i
+                            class="fa-brands fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
